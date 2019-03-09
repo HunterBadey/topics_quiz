@@ -1,0 +1,6 @@
+<launch>
+    <!--Topic quiz launch -->
+    <node pkg="topics_quiz" type="topics_quiz_code.py" name="topics_quiz_node"  output="screen">
+    <!-- <node pkg= "topics_quiz" type="topics_quiz_code.py" name = "topics_quiz_subscriber" output = "screen" > -->
+    </node>
+</launch>
